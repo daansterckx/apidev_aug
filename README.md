@@ -2,51 +2,47 @@
 <h2>api developement final project</h2>
 
 <br />
-<h2>post endpoint</h2>
+<h2>post endpoints</h2>
 ![Screenshot from 2024-08-15 13-39-01](https://github.com/user-attachments/assets/f40f9948-e44a-4572-bc26-2fc44c43db9f)
+![Screenshot from 2024-08-15 13-41-23](https://github.com/user-attachments/assets/29c939b6-7b42-414e-ad94-3c0b38f2bd3a)
 
 <h2>put endpoint</h2>
-![image](https://github.com/daansterckx/apidev-final-project/assets/39022656/26d2a24f-483c-45c2-8274-2b52dfc3ea4f)
+
+![Screenshot from 2024-08-15 13-52-05](https://github.com/user-attachments/assets/d9d13ce1-25d6-481d-ad29-92651b89bcfd)
 
 <h2>token for oauth</h2>
-![image](https://github.com/daansterckx/apidev-final-project/assets/39022656/fbf72447-aea6-4f9d-900d-cf891ff0603a)
 
-<h2>first get endpoint unauthorized</h2>
-![image](https://github.com/daansterckx/apidev-final-project/assets/39022656/a7ec2c70-972d-4e1b-a28f-ab816ea3bc72)
+![Screenshot from 2024-08-15 13-56-09](https://github.com/user-attachments/assets/b6e72749-0dc2-4a63-84ed-2dc32f80db78)
 
-<h2>first get endpoint authorized</h2>
-![image](https://github.com/daansterckx/apidev-final-project/assets/39022656/043f3bfc-d373-4c44-8d32-5b096e94e725)
-
-
-<h2>second get endpoint unauthorized</h2>
-![image](https://github.com/daansterckx/apidev-final-project/assets/39022656/e6e72539-6e76-477f-909a-4544aca91822)
-
-<h2>second get endpoint authorized</h2>
-![image](https://github.com/daansterckx/apidev-final-project/assets/39022656/b7e06461-19e3-470a-8777-557bd9c03241)
-
-<h2>third get endpoint unauthorized</h2>
-![image](https://github.com/daansterckx/apidev-final-project/assets/39022656/cd59794d-9371-426a-a5ec-64a25bb290e1)
-
-<h2>third get endpoint authorized</h2>
-![image](https://github.com/daansterckx/apidev-final-project/assets/39022656/7afd6fbc-de45-47de-bf43-6bedf1465730)
-
-<h2>delete endpoint</h2>
-![image](https://github.com/daansterckx/apidev-final-project/assets/39022656/a1de6f55-140c-4f4e-9688-b84e2966e8d5)
-
-<h2>bewijs dat het ook met okteto werkt</h2>
-![image](https://github.com/daansterckx/apidev-final-project/assets/39022656/00719947-0bd6-4f68-a4c4-d1382aee506a)
+<h2>get endpoints</h2>
+![Screenshot from 2024-08-15 13-42-47](https://github.com/user-attachments/assets/35280461-f87a-4e80-b0a3-2091ea79f59b)
+![Screenshot from 2024-08-15 13-42-36](https://github.com/user-attachments/assets/6fc75249-ea33-4a0a-a87a-b0ad21ef79ab)
+![Screenshot from 2024-08-15 13-41-39](https://github.com/user-attachments/assets/ac4baadd-cb86-4a8c-a0f8-c55a179eeaf4)
+![Screenshot from 2024-08-15 13-41-23](https://github.com/user-attachments/assets/bd701b49-3374-4f8f-9ff0-3d3f3dc6c8f0)
+![Screenshot from 2024-08-15 13-39-58](https://github.com/user-attachments/assets/0b0a4731-8eeb-4b87-a956-b7fde742e652)
+![Screenshot from 2024-08-15 13-39-44](https://github.com/user-attachments/assets/039a2dba-1121-414d-86e9-3f54fd58ce4a)
+<h2>delete endpoints</h2>
+![Screenshot from 2024-08-15 13-30-59](https://github.com/user-attachments/assets/e30d230b-9759-4239-b64f-5bb7fa386fbe)
+![Screenshot from 2024-08-15 13-40-18](https://github.com/user-attachments/assets/42c5c5cc-1413-42f3-b87a-836d74de60f6)
+<h2>authentication on attendee delete endpoint</h2>
+![Screenshot from 2024-08-15 13-30-44](https://github.com/user-attachments/assets/19bf9d47-dfbc-4072-adba-af36889ab342)
+![Screenshot from 2024-08-15 13-30-59](https://github.com/user-attachments/assets/71543bc6-6e9a-49ca-94bd-b650cde8b398)
 
 <h2>docs</h2>
-![image](https://github.com/daansterckx/apidev-final-project/assets/39022656/bd311967-cdfe-4322-a712-18fa04df93a3)
-![image](https://github.com/daansterckx/apidev-final-project/assets/39022656/d1855a55-c557-4bda-97f6-7549323f8ea3)
-![image](https://github.com/daansterckx/apidev-final-project/assets/39022656/1391848f-8d5a-4a04-8033-c69ae0ddf6b2)
-![image](https://github.com/daansterckx/apidev-final-project/assets/39022656/c186cd26-e5a4-4afe-87f7-13a40b526806)
-![image](https://github.com/daansterckx/apidev-final-project/assets/39022656/bc70058e-294a-406e-9621-34cda0882251)
-![image](https://github.com/daansterckx/apidev-final-project/assets/39022656/a480b4ba-06d3-4db9-bcef-3472093a55bc)
-![image](https://github.com/daansterckx/apidev-final-project/assets/39022656/25cf58a8-701e-4d98-b214-b33e1fe9c5d4)
-![image](https://github.com/daansterckx/apidev-final-project/assets/39022656/51e08404-3a0f-44e6-bfb5-99d3eaf75812)
 
 
+
+![Screenshot from 2024-08-15 14-02-46](https://github.com/user-attachments/assets/1611055d-3cb4-4693-ac94-226bd13fd876)
+![Screenshot from 2024-08-15 14-02-37](https://github.com/user-attachments/assets/bd11e0ed-3100-40cf-9850-5416aeeec37f)
+![Screenshot from 2024-08-15 14-02-28](https://github.com/user-attachments/assets/a8be85da-1730-43c3-9d79-3f92b238d3be)
+![Screenshot from 2024-08-15 14-02-17](https://github.com/user-attachments/assets/b3c13569-3814-46d9-8b0b-b1b888f01a90)
+![Screenshot from 2024-08-15 14-02-06](https://github.com/user-attachments/assets/e55bb157-2e1b-493d-ad06-ae889ba46a21)
+![Screenshot from 2024-08-15 14-01-55](https://github.com/user-attachments/assets/5187d12c-3c3f-4afa-a56d-ca5e65e3ba55)
+![Screenshot from 2024-08-15 14-01-46](https://github.com/user-attachments/assets/8c0dcd6e-a45e-4514-8087-53f0b7409d51)
+![Screenshot from 2024-08-15 14-01-35](https://github.com/user-attachments/assets/c9b4bbda-cacf-4ad8-bcbf-9de3d3583a42)
+![Screenshot from 2024-08-15 14-01-23](https://github.com/user-attachments/assets/e2451c18-08bb-4291-870f-c6d014fc6a71)
+![Screenshot from 2024-08-15 14-01-08](https://github.com/user-attachments/assets/8065f232-faf8-45cf-92b1-664ced73fb36)
+![Screenshot from 2024-08-15 14-00-26](https://github.com/user-attachments/assets/c92f39c8-aefc-4e60-be90-34f2a8ab01af)
 
 
 
