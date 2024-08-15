@@ -79,3 +79,13 @@ def delete_attendee(attendee_id: int, db: Session = Depends(get_db), token: str 
     db.delete(db_attendee)
     db.commit()
     return db_attendee
+    @app.put("/movie/{movie_id}", response_model=schemas.Movie)
+def update_movie(movie_id: int, movie: schemas.MovieCreate, db: Session = Depends(get_db)):
+    db_movie = crud.get_movie_by_id(db, movie_id=movie_id)
+    if db_movie is None:
+        raise HTTPException(status_code=404, detail="Movie not found")
+    db_movie.title = movie.title
+    db_movie.description = movie.description
+    db.commit()
+    db.refresh(db_movie)
+    return db_movie
