@@ -2,15 +2,8 @@
 <h2>api developement final project</h2>
 
 <br />
-<div align="center">
-  <p>okteto: https://app-daansterckx.cloud.okteto.net</p>
-  <p>netlify: https://frontendapidev.netlify.app/</p>
-  <p>frontend repo:https://github.com/daansterckx/apidev_fronted</p>
-  <p>images</p>
-  <br />
-</div>
 <h2>post endpoint</h2>
-![image](https://github.com/daansterckx/apidev-final-project/assets/39022656/6fcb49a8-ac72-445b-8760-946a58505a41)
+![Screenshot from 2024-08-15 13-39-01](https://github.com/user-attachments/assets/f40f9948-e44a-4572-bc26-2fc44c43db9f)
 
 <h2>put endpoint</h2>
 ![image](https://github.com/daansterckx/apidev-final-project/assets/39022656/26d2a24f-483c-45c2-8274-2b52dfc3ea4f)
@@ -53,9 +46,6 @@
 ![image](https://github.com/daansterckx/apidev-final-project/assets/39022656/25cf58a8-701e-4d98-b214-b33e1fe9c5d4)
 ![image](https://github.com/daansterckx/apidev-final-project/assets/39022656/51e08404-3a0f-44e6-bfb5-99d3eaf75812)
 
-<h2>front end</h2>
-![image](https://github.com/daansterckx/apidev-final-project/assets/39022656/ae8dbe01-0006-4f48-bfdd-25fdbaa46735)
-![image](https://github.com/daansterckx/apidev-final-project/assets/39022656/c487f07d-28f4-4b82-bc18-7d27c3dbad96)
 
 
 
