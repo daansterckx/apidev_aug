@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midnight Echo</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+</head>
+<body>
+    <div class="banner-container position-relative">
+        <img src="assets/banner.jpg" alt="midnight echo" class="img-fluid w-100 mb-4">
+        <img src="assets/lyeDqm01.svg" alt="midnight echo" class="logo-overlay">
+    </div>
+    <main class="container w-100">
+        <div class="row">
+                        <div class="col-md-6">
+                <h2>Movie Description:</h2>
+                <p id="movie-description">
+                    Midnight Echo is a thrilling journey into the unknown, where every shadow hides a secret and every echo tells a story. Set in a remote village shrouded in mystery, the film follows a group of friends who stumble upon an ancient artifact that awakens a dormant evil. As they delve deeper into the village's dark history, they uncover a series of chilling events that have been buried for centuries. The tension escalates as they realize that the echoes of the past are not just memories, but living entities that can influence the present. With breathtaking cinematography and a haunting score, Midnight Echo will keep you on the edge of your seat from start to finish. The film explores themes of friendship, courage, and the unbreakable human spirit in the face of unimaginable horror. The characters are richly developed, each with their own backstory that adds depth to the narrative. The plot twists and turns, keeping the audience guessing until the very end. Join us for an unforgettable experience that will leave you questioning the very nature of reality and the boundaries between the living and the dead.
+                </p>
+                <img src="assets/poster.jpg" alt="Midnight Echo Poster" class="img-fluid mt-3">
+            </div>
+            <div class="col-md-6 mb-4">
+                <h2>dates:</h2>
+                <div id="movie-dates-container">
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <h2>Behind the Scenes:</h2>
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/behind1.jpg" class="d-block w-100" alt="Behind the Scenes 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/behind2.jpg" class="d-block w-100" alt="Behind the Scenes 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/behind3.jpg" class="d-block w-100" alt="Behind the Scenes 3">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h2>Reserve a Spot:</h2>
+                <form id="attendeeForm" class="needs-validation" novalidate>
+                    <div class="mb-3">
+                        <label for="movie_id" class="form-label">showing number:</label>
+                        <input type="number" class="form-control" id="movie_id" name="movie_id" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="attendee_name" class="form-label">Attendee Name:</label>
+                        <input type="text" class="form-control" id="attendee_name" name="attendee_name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="attendee_email" class="form-label">Attendee Email:</label>
+                        <input type="email" class="form-control" id="attendee_email" name="attendee_email" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <div class="modal fade" id="actorModal" tabindex="-1" aria-labelledby="actorModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="actorModalLabel">Actor Info</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p id="actorBio"></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="text-center mt-4">
+        <p>This is a fake page none of the items in this page exist this is a demo &copy; Thomas More</p>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
